@@ -1,10 +1,15 @@
 const http = require('http');
 const server = http.createServer();
 
-const helloListener = (req, res) => {
-  console.dir(req);
+const requestListener = (req, res) => {
+  if (req.method === 'GET') {
+    res.end('hello world!\n');
+  }
+  res.end();
 };
 
-server.on("connection", helloListener);
+server.on('request', requestListener);
 
-server.listen('4242', 'localhost');
+server.listen('4242', 'localhost', () => {
+  console.log('server listening...');
+});

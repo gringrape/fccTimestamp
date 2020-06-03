@@ -34,3 +34,7 @@ freecodecamp microservice project
 - [ ] hello world
 - [ ] handle invalid requests
 - [ ] handle valid requests
+
+## 5. environment
+- javascript ES6
+- node v14.3.0

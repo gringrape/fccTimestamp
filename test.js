@@ -1,0 +1,1 @@
+console.log('/api/doc/2019'.split('/').slice(1));

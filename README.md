@@ -31,9 +31,12 @@ freecodecamp microservice project
 - test -> develop
 
 ## 4. checklist
-- [ ] hello world
-- [ ] handle invalid requests
-- [ ] handle valid requests
+- [ ] 1. url check
+- [ ] 2. method check -> dispatch
+- [ ] 3. in handler 
+- [ ]  3-1. parse path variable
+- [ ]  3-2. validation
+- [ ]  3-3. return result 
 
 ## 5. environment
 - javascript ES6
